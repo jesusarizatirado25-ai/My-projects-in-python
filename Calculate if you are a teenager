@@ -1,0 +1,8 @@
+Edad = 1
+
+Edad = int(input("ingresa tu edad: "))
+if Edad >= 13 and Edad <= 17:
+    print("eres un adolescente")
+else:
+    print("No eres un adolescente")
+    
