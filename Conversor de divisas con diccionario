@@ -1,0 +1,4 @@
+### practices ###
+monedas = {"Euro": "€", "Dollar": "$", "Yen": "¥"}  
+moneda = input("Introduzca una divisa: ")
+print(monedas.get(moneda.title(), "La divisa no está."))
