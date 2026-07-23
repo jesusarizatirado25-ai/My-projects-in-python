@@ -1,0 +1,10 @@
+nombre = ""
+# hacemos input para ingresar el nombre
+nombre = input("Introduzca su nombre completo: ")
+nombre_en_minusculas = nombre.lower()
+nombre_en_mayusculas = nombre.upper()
+nombre_formato_titulo = nombre.title()
+
+#este print se usa para dar un salto de pagina con "\n" y triplicarlo (* 3) el nombre dado por el usuario.
+print((nombre_en_minusculas + "\n" + nombre_en_mayusculas + "\n" + nombre_formato_titulo + "\n") * 3) 
+    
